@@ -1,4 +1,4 @@
-<!-- AutoCyber AI — GitHub Organisation Profile -->
+<!-- AutoCyber AI - GitHub Organisation Profile -->
 <!-- autocyberai.com · crprotocol.io · comply.crprotocol.io -->
 
 <div align="center">
@@ -30,11 +30,11 @@
 
 ## Who We Are
 
-AutoCyber AI Pty Ltd is a Sydney, Australia–based AI company specialising in **secure, local-first AI** for cybersecurity, compliance, and enterprise productivity. We believe the future of AI isn't in someone else's cloud — it's on your infrastructure, under your control, governed by your rules.
+AutoCyber AI Pty Ltd is a Sydney, Australia–based AI company specialising in **secure, local-first AI** for cybersecurity, compliance, and enterprise productivity. We believe the future of AI isn't in someone else's cloud - it's on your infrastructure, under your control, governed by your rules.
 
 > *"Most AI vendors ask you to trust their cloud. We don't."*
 
-Everything we ship is built around four non-negotiables: **security by design**, **local-first deployment**, **verifiable compliance**, and **full data sovereignty**. Our products run on your infrastructure — no hidden telemetry, no data resale, no vendor lock-in. Offline and air-gapped deployments supported.
+Everything we ship is built around four non-negotiables: **security by design**, **local-first deployment**, **verifiable compliance**, and **full data sovereignty**. Our products run on your infrastructure - no hidden telemetry, no data resale, no vendor lock-in. Offline and air-gapped deployments supported.
 
 ---
 
@@ -42,23 +42,23 @@ Everything we ship is built around four non-negotiables: **security by design**,
 
 ### 🔐 Security & Cybersecurity
 
-#### WASA AI — *Out Now*
+#### WASA AI - *Out Now*
 The first truly agentic security platform. An AI co-pilot that actively works alongside security professionals to discover vulnerabilities, analyse threats, and generate actionable intelligence. 150+ security tools orchestrated as one. Autonomous vulnerability scanning. Compliance-ready reports aligned with NIST, OWASP, and MITRE ATT&CK.
 
 → [autocyberai.com/products/wasa-ai](https://www.autocyberai.com/products/wasa-ai)
 
-#### NAD AI — *New*
+#### NAD AI - *New*
 Network anomaly detection and intrusion response. Local-first, real-time threat intelligence.
 
 → [autocyberai.com/products/nad-ai](https://www.autocyberai.com/products/nad-ai)
 
-#### Spark AI — *New*
+#### Spark AI - *New*
 AI-powered productivity and automation for security-conscious teams.
 
 → [autocyberai.com/products/spark-ai](https://www.autocyberai.com/products/spark-ai)
 
-#### SecureEasy AI — *Coming Soon*
-Cybersecurity made simple. No IT expertise required. Enterprise-level protection in plain language — one-click fixes, virtual security team for non-technical users.
+#### SecureEasy AI - *Coming Soon*
+Cybersecurity made simple. No IT expertise required. Enterprise-level protection in plain language - one-click fixes, virtual security team for non-technical users.
 
 → [autocyberai.com/products/secure-easy](https://www.autocyberai.com/products/secure-easy)
 
@@ -66,17 +66,17 @@ Cybersecurity made simple. No IT expertise required. Enterprise-level protection
 
 ### ⚖️ Compliance & AI Governance
 
-#### CRP Comply — *Live*
-Automated EU AI Act, ISO 42001, GDPR, and NIST AI RMF compliance. Change one URL — every LLM call is automatically PII-scanned, risk-classified, and written to a tamper-evident audit trail. Generate FRIA, DPIA, and Technical Documentation from live protocol data — not questionnaires. Bring your own LLM key.
+#### CRP Comply - *Live*
+Automated EU AI Act, ISO 42001, GDPR, and NIST AI RMF compliance. Change one URL - every LLM call is automatically PII-scanned, risk-classified, and written to a tamper-evident audit trail. Generate FRIA, DPIA, and Technical Documentation from live protocol data - not questionnaires. Bring your own LLM key.
 
 → [comply.crprotocol.io](https://comply.crprotocol.io)
 
-#### CRP Scan — *In Development*
+#### CRP Scan - *In Development*
 GitHub Action for AI governance scanning. Finds ungoverned AI calls in your codebase, shows exactly what safety headers are missing, and links every finding to CRP Comply for remediation.
 
 → [crprotocol.io/products/scan](https://crprotocol.io/products/scan/)
 
-#### CRP Gateway — *Coming Soon*
+#### CRP Gateway - *Coming Soon*
 Managed hosted AI safety infrastructure. One endpoint change. All 58 safety headers. LLM key vault. Automatic compliance feed. Provider failover.
 
 → [crprotocol.io/products/gateway](https://crprotocol.io/products/gateway/)
@@ -85,31 +85,31 @@ Managed hosted AI safety infrastructure. One endpoint change. All 58 safety head
 
 ## 🌐 Our Biggest Achievement: Context Relay Protocol™ (CRP)
 
-AutoCyber AI is the author and maintainer of **Context Relay Protocol™ (CRP) v3.0** — an open HTTP-header standard for AI safety, context governance, and compliance evidence. CRP is the technical foundation that all of our AI governance products are built on.
+AutoCyber AI is the author and maintainer of **Context Relay Protocol™ (CRP) v3.0** - an open HTTP-header standard for AI safety, context governance, and compliance evidence. CRP is the technical foundation that all of our AI governance products are built on.
 
 ```
 ┌────────────────────────────────────────────────────┐
-│  A2A  — Agent-to-Agent Communication               │
+│  A2A  - Agent-to-Agent Communication               │
 ├────────────────────────────────────────────────────┤
-│  MCP  — Model Context Protocol (Tools)             │
+│  MCP  - Model Context Protocol (Tools)             │
 ├────────────────────────────────────────────────────┤
-│  CRP  — Context Relay Protocol  ◀  AutoCyber AI    │
+│  CRP  - Context Relay Protocol  ◀  AutoCyber AI    │
 │         Context · Safety · Compliance · Provenance  │
 └────────────────────────────────────────────────────┘
 ```
 
-MCP gives agents tools. A2A lets agents communicate. **CRP governs every underlying AI call** — with verifiable safety signals, cryptographic provenance, and automated compliance evidence on every response.
+MCP gives agents tools. A2A lets agents communicate. **CRP governs every underlying AI call** - with verifiable safety signals, cryptographic provenance, and automated compliance evidence on every response.
 
 ### What CRP Does
 
 **One endpoint change. Zero application code changes. Full governance.**
 
 ```python
-# Before — ungoverned OpenAI call
+# Before - ungoverned OpenAI call
 from openai import OpenAI
 client = OpenAI(api_key="sk-...")
 
-# After — full CRP governance, same SDK
+# After - full CRP governance, same SDK
 from openai import OpenAI
 client = OpenAI(
     api_key="crp_gw_...",
@@ -175,7 +175,7 @@ CRP-Agent-Safety-Budget: 0.78
 CRP-Context-Protocol-Version: 3.0.0
 ```
 
-Every header is readable by any proxy, WAF, SIEM, or middleware in the stack — no SDK required to act on them.
+Every header is readable by any proxy, WAF, SIEM, or middleware in the stack - no SDK required to act on them.
 
 ### CRP Regulatory Coverage
 
@@ -183,7 +183,7 @@ Every header is readable by any proxy, WAF, SIEM, or middleware in the stack —
 |-----------|----------|
 | **EU AI Act** (Regulation 2024/1689) | 33 / 35 controls · enforcement Aug 2026 |
 | **GDPR** (Regulation 2016/679) | Art. 5, 17, 22, 25, 32, 35, 44 |
-| **ISO/IEC 42001:2023** | AI Management Systems — Annex A controls |
+| **ISO/IEC 42001:2023** | AI Management Systems - Annex A controls |
 | **NIST AI RMF 1.0** | GOVERN, MAP, MEASURE, MANAGE |
 | **SOC 2 Type II** | CC6, CC7, CC8, CC9 |
 | **Australian AI Ethics Framework** | All 8 principles |
@@ -198,11 +198,11 @@ Three Internet-Drafts submitted to the IETF for standardisation:
 | [`draft-vidiniotis-crp-headers`](https://datatracker.ietf.org/doc/draft-vidiniotis-crp-headers/) | 58 HTTP header field definitions (ABNF grammar) |
 | [`draft-vidiniotis-crp-spec-006-safety-policy`](https://datatracker.ietf.org/doc/draft-vidiniotis-crp-spec-006-safety-policy/) | Safety Policy directive language |
 
-**IANA** — HTTP Field Name registry registration in progress. Designated expert confirmed: *"Publication on the Independent Stream is sufficient."* Independent Submission to ISE (Eliot Lear) in progress.
+**IANA** - HTTP Field Name registry registration in progress. Designated expert confirmed: *"Publication on the Independent Stream is sufficient."* Independent Submission to ISE (Eliot Lear) in progress.
 
-**IEEE SA** — PAR (Project Authorisation Request) in preparation, targeting the AIS (Autonomous and Intelligent Systems) committee.
+**IEEE SA** - PAR (Project Authorisation Request) in preparation, targeting the AIS (Autonomous and Intelligent Systems) committee.
 
-**ISO/IEC JTC 1/SC 42** — New Work Item in preparation via Standards Australia, as companion standard to ISO 42001.
+**ISO/IEC JTC 1/SC 42** - New Work Item in preparation via Standards Australia, as companion standard to ISO 42001.
 
 → [Full standards track](https://crprotocol.io/standards/)
 → [17 formal specification documents](https://crprotocol.io/spec/)
@@ -220,7 +220,7 @@ Three Internet-Drafts submitted to the IETF for standardisation:
 | Black-box compliance | Verifiable, auditable controls |
 | Offline: ✗ | Air-gapped deployment: ✓ |
 
-We're built for environments where **failure isn't an option** — enterprises, regulated organisations, government, critical infrastructure, healthcare, and defence.
+We're built for environments where **failure isn't an option** - enterprises, regulated organisations, government, critical infrastructure, healthcare, and defence.
 
 ---
 
@@ -228,8 +228,8 @@ We're built for environments where **failure isn't an option** — enterprises, 
 
 We align everything we ship with:
 
-- **ISO/IEC 27001:2022** — Information Security Management
-- **ISO/IEC 42001:2023** — AI Management Systems
+- **ISO/IEC 27001:2022** - Information Security Management
+- **ISO/IEC 42001:2023** - AI Management Systems
 - **EU AI Act** (Regulation 2024/1689)
 - **NIST AI RMF 1.0**
 - **OWASP Top 10 (2025)**
